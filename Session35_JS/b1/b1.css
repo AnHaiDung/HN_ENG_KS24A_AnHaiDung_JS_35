@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+#taskList {
+    display: inline-block;
+    text-align: left;
+    border: 1px solid transparent;
+    padding: 10px;
+    background-color: #f9f9f9;
+    width: 400px;
+}
+
+li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+
+button {
+    padding: 6px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    background-color: white;
+}
+
+.btnContent{
+    display: flex;
+    gap: 5px;
+}
